@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Copying Code</title>
+
+</head>
+
+<body>
+
+    <button id="run_btn" type="button" onclick="runButton()">RUN</button>
+
+    <button id="clear_btn" type="button" onclick="clearButton()">CLEAR</button>
+
+    <div id="template_code_div">
+        <h3>Template Code:</h3>
+        <textarea id="template_code_txt" rows="15" cols="80"></textarea>
+    </div>
+
+    <div>
+        <h3>Replace variable:</h3>
+        <input id="replace_var" type="text" size="40" name="replaced">
+    </div>
+
+    <div id="template_code_div">
+        <h3>Values (separate by commas without space):</h3>
+        <textarea id="values_txt" rows="20" cols="70"></textarea>
+    </div>
+
+</body>
+
+</html>

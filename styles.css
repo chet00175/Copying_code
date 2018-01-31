@@ -1,0 +1,25 @@
+#template_code_div {
+    margin-top: 2%;
+}
+
+div {
+    text-align: center;
+}
+
+#run_btn {
+    position: absolute;
+    background-color: bisque;
+    font-size: 16px;
+    padding: 10px 30px;
+    left: 14%;
+    top: 12%;
+}
+
+#clear_btn {
+    position: absolute;
+    background-color: bisque;
+    font-size: 16px;
+    padding: 10px 30px;
+    right: 14%;
+    top: 12%;
+}
